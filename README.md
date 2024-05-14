@@ -11,8 +11,16 @@ npm run deploy
 ```
 
 Check openAPI Spec file : 
-```http://127.0.0.1:8787/doc```
+```
+http://127.0.0.1:8787/doc
+```
 
-Check the UI: ```http://127.0.0.1:8787/ui```
+Check the UI: 
+```
+http://127.0.0.1:8787/ui
+```
 
-Generate client using ```npx openapi-typescript-codegen --input ./spec.json --output ./generated```
+Generate client using 
+```
+npx openapi-typescript-codegen --input ./spec.json --output ./generated
+```
