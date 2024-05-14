@@ -1,0 +1,69 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "version": "1.0.0",
+      "title": "OpenAPI"
+    },
+    "components": {
+      "schemas": {
+  
+      },
+      "parameters": {
+  
+      }
+    },
+    "paths": {
+      "/user/{id}": {
+        "get": {
+          "parameters": [
+            {
+              "schema": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10,
+                "example": "123"
+              },
+              "required": true,
+              "name": "id",
+              "in": "path"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Get user details",
+              "content": {
+                "application/json": {
+                  "schema": {
+                    "type": "object",
+                    "properties": {
+                      "name": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 15,
+                        "example": "John"
+                      },
+                      "age": {
+                        "type": "integer",
+                        "example": 20
+                      },
+                      "id": {
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 10,
+                        "example": "22"
+                      }
+                    },
+                    "required": [
+                      "name",
+                      "age",
+                      "id"
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
