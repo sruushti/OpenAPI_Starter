@@ -10,5 +10,7 @@ npm run dev
 npm run deploy
 ```
 
-Check openAPI Spec file : `http://127.0.0.1:8787/doc`
-Check the UI: `http://127.0.0.1:8787/ui`
+Check openAPI Spec file : 
+```http://127.0.0.1:8787/doc```
+
+Check the UI: ```http://127.0.0.1:8787/ui```
