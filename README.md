@@ -4,6 +4,10 @@ Standard, language-agnostic interface to RESTful APIs
 ### Using Hono as an HTTP framework with zod 
 
 ```
+https://www.openapis.org/
+```
+
+```
 npm install
 npm run dev
 ```
