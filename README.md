@@ -28,6 +28,8 @@ http://127.0.0.1:8787/ui
 
 Generate client using 
 ```
-npx openapi-typescript-codegen --input ./spec.json --output ./generated
+npx openapi-typescript-codegen --input ./spec.json --output ./generated 
+cd Userapp
+node index.js
 ```
 The generated client library abstracts away the low-level details of making HTTP requests
