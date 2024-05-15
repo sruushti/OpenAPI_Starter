@@ -24,3 +24,6 @@ Generate client using
 ```
 npx openapi-typescript-codegen --input ./spec.json --output ./generated
 ```
+The generated client library abstracts away the low-level details of making HTTP requests
+
+### Using Hono as an HTTP framework with zod 
