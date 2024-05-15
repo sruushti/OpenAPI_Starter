@@ -1,6 +1,8 @@
 ### OpenAPI Spec / OpenAPI Specification (OAS)
 Standard, language-agnostic interface to RESTful APIs 
 
+### Using Hono as an HTTP framework with zod 
+
 ```
 npm install
 npm run dev
@@ -25,5 +27,3 @@ Generate client using
 npx openapi-typescript-codegen --input ./spec.json --output ./generated
 ```
 The generated client library abstracts away the low-level details of making HTTP requests
-
-### Using Hono as an HTTP framework with zod 
